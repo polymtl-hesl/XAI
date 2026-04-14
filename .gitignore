@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs (generated at runtime)
+outputs/*.png
+outputs/*.pdf
+outputs/*.json
+# keep the .gitkeep so the folder is tracked
+!outputs/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Raw CSV files — replaced by data/flight_index.json; not needed to run experiments
+data/raw/
+
+# Large binary data — uncomment to exclude from Git (use Git LFS for large repos)
+# data/processed/**/*.pickle
+# trained_model/*.pth
