@@ -125,7 +125,7 @@ for a_idx, a_name in enumerate(ATTACK_NAMES):
     names_top = [feat_names[i] for i in order]
     vals_top  = shap_vals[order]
 
-    bar_names = [f"All others ({len(shap_vals) - top_n})"] + names_top[::-1].tolist()
+    bar_names = [f"All others ({len(shap_vals) - top_n})"] + names_top[::-1]
     bar_vals  = [rest] + list(vals_top[::-1])
     colors    = ["#d0d0d0"] + ["#ff4d4d" if v > 0 else "#4d79ff" for v in bar_vals[1:]]
 

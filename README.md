@@ -2,7 +2,7 @@
 
 Reproducibility code for the DASC 2026 paper:
 **"From Explainability to Certifiability: XAI-Driven Assurance for AI-Based Avionics Systems"**
-*Adem Hmissa, Charles de Malefette, Jean-Yves Ouattara, Felipe Magalhaes, Ahmad Shahnejat Bushehri, Adel Abusitta, Gabriela Nicolescu*
+*Adem Hmissa, Charles de Malefette, Jean-Yves Ouattara, Felipe Magalhaes, Ahmad Shahnejat Bushehri, Rim Zrelli, Adel Abusitta, Gabriela Nicolescu*
 
 Five standalone experiments evaluate DeepSHAP explanations as certification evidence for an ADS-B intrusion detection model, each targeting one assurance claim.
 
@@ -178,7 +178,7 @@ XAI4ADS-B/
                for {AI}-Based Avionics Systems},
   author    = {Hmissa, Adem and de Malefette, Charles and Ouattara, Jean-Yves
                and Magalhaes, Felipe and Shahnejat Bushehri, Ahmad
-               and Abusitta, Adel and Nicolescu, Gabriela},
+               and Zrelli, Rim and Abusitta, Adel and Nicolescu, Gabriela},
   booktitle = {Proceedings of the AIAA/IEEE Digital Avionics Systems Conference (DASC)},
   year      = {2026}
 }
